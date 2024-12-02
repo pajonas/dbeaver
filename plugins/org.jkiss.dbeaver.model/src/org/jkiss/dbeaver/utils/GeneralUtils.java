@@ -71,6 +71,7 @@ public class GeneralUtils {
     public static final Charset UTF8_CHARSET = StandardCharsets.UTF_8;
     public static final Charset DEFAULT_FILE_CHARSET = UTF8_CHARSET;
 
+    public static final String DEFAULT_TIME_PATTERN = "HHmmss";
     public static final String DEFAULT_TIMESTAMP_PATTERN = "yyyyMMddHHmm";
     public static final String DEFAULT_DATE_PATTERN = "yyyyMMdd";
     public static final String RESOURCE_NAME_FORBIDDEN_SYMBOLS_REGEX = "(?U)[^/:'\"\\\\<>|?*]+";
